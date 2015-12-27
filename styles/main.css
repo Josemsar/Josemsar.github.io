@@ -1,0 +1,36 @@
+ *{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+ }
+ 
+ .header{
+     position: relative;
+ }
+ 
+ .background{
+     width: 100%;
+ }
+ 
+.avatar{
+     width: 100%;
+     position: relative;
+     text-align: center;
+ }
+ 
+.avatar img{
+    border: 4px solid white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: -18%;
+    width: 32%;
+    max-width: 350px;
+}
+ 
+ h1, h2{
+     font-weight: bold;
+ }
+ 
+ #status{
+     color: #94A3A8;
+     font-size: 20px;
+ }
