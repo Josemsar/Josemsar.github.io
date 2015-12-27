@@ -14,7 +14,7 @@ $(document).ready(function(){
 });
 
 $(document).scroll(function() {
-    var amountScrolled = 100;
+    var amountScrolled = 40;
     
 	if ( $(window).scrollTop() > amountScrolled ) {
 		$('a.back-to-top').fadeIn('slow');
