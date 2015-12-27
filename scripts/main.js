@@ -1,15 +1,15 @@
 // create the back to top button
+
+function goToTop() {
+    $('html, body').animate({
+    scrollTop: 0}, 'slow');
+};
+
 $(document).ready(function(){
-   
-    function goToTop() {
-	   $('html').animate({
-		scrollTop: 0}, 'slow');
-    };
 
     function prependBackToTop(){
         $('body').prepend('<a onclick="goToTop()" href="#" class="back-to-top">Back to Top</a>');
     }
-    
     prependBackToTop();
 });
 
