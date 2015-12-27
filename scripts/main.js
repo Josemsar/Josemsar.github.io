@@ -5,6 +5,10 @@ function goToTop() {
     scrollTop: 0}, 'slow');
 };
 
+function openMiniWindow(url){
+    window.open(url, "_blank", "width=550,height=490,0");
+}
+
 $(document).ready(function(){
 
     function prependBackToTop(){
